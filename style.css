@@ -1,0 +1,240 @@
+.content
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.top-title
+{
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+}
+.nav-icon
+{
+  margin: 0;
+  padding: 0;
+  /* outline: none; */
+  border: none;
+  background-color: transparent;
+  width: 17px;
+}
+.nav-icon > img 
+{
+  display: block;
+}
+.nav-icon:hover
+{
+  cursor: pointer;
+}
+.login-log
+{
+  color: #9E9EA7;
+}
+.header-title
+{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.header-title .head-logo
+{
+  width: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.header-title .head-logo > img 
+{
+  width: 7rem;
+}
+.header-title .head-title 
+{
+  display: none;
+}
+.hidden
+{
+  display: none;
+}
+
+/* hiding part  */
+.main .hide-style
+{
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: none;
+  padding: 5% 0 0 7%;
+  margin-top: 0;
+  list-style: none;
+  border-top: 0.5px solid #e3e3f1;
+  color: #716F7D;
+  font: 1.2rem sans-serif;
+  font-weight: 700;
+}
+.main .hide-list ul>li 
+{
+  padding: 2% 0;
+}
+/* hiding part end  */
+/* banner part  */
+.main .banner-part
+{
+  background-color: #F9F8FD; 
+  display: flex;
+  justify-content: center;
+}
+.main .banner
+{
+  width: 100%;
+}
+.main .banner>img 
+{
+  width: 100%;
+  display: block;
+}
+.main .banner-title 
+{
+  width: 100%;
+  /* padding: 1% ; */
+  background-color: #F9F8FD;
+}
+.main .banner-title-top
+{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  padding: 4% 1%;
+}
+.banner-title .banner-text
+{
+  padding: 0 4% 4% 4%;
+  text-align: center;
+}
+.main .sign-up-logo
+{
+  display: flex;
+  justify-content: center;
+  padding: 0 0 6%;
+}
+.main .sign-up-logo .sign-up 
+{
+  color: white;
+  background-color: #EA4C89;
+  text-align: center;
+  /* width: 5rem; */
+  padding: 3%;
+  border-radius: 0.5rem;
+}
+/* banner part end  */
+
+/* main content part  */
+.main-content
+{
+  padding: 0 2% 5% 2%;
+  width: 100%;
+}
+.main-part
+{
+  padding: 4%;
+}
+.main-part .cover
+{
+  width: 100%;
+}
+.main-part .cover >img 
+{
+  width: 100%;
+  border-radius: 2%;
+}
+.main-part .line
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line .line-left
+{
+  display: flex;
+  align-items: center;
+}
+.main-part .avatar > img 
+{
+  border-radius: 50%;
+}
+
+.main-part .author
+{
+  display: flex;
+  min-width: 0;
+}
+.author .box 
+{
+  width: 100%;
+}
+/* .author .name
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+.author .badge 
+{
+  background-color: #CCCCCC;
+  color: white;
+  font-weight: 700;
+  padding: 0 .2em 0 .2em;
+  border-radius: .2em;
+  align-self: center;
+}
+.line .comment
+{
+  /* margin-left: auto; */
+  display: flex;
+}
+.comment .like-logo,
+.comment .view-logo
+{
+  width: 1em;
+  align-items: center;
+}
+.comment .like-logo
+{
+  display: flex;
+}
+
+.comment .likes::after,
+.comment .likes::before,
+.comment .views::before,
+.author .name::before,
+.author .name::after
+{
+  content: "\00A0";
+}
+/* main content part end  */
+
+/* bottom part  */
+.footer
+{
+  padding-top: 10%;
+  background-color: #fafafa;
+}
+.footer .bottom-title, .footer .bottom-text
+{
+  padding-left: 5%;
+  
+}
+.footer .bottom-title >img 
+{
+  width: 30%;
+}
+.footer .bottom-text
+{
+  width: 80%;
+  padding: 4% 0 20% 4%;
+}
+/* bottom part end  */
